@@ -5,7 +5,7 @@ base = None
 if sys.platform == 'win32':
     base = 'Win32GUI'
 
-executables = [Executable("new.py", base=base)]
+executables = [Executable("To_Do_app.py", base=base)]
 
 options = {
     'build_exe': {
